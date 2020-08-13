@@ -9,3 +9,4 @@ def xls_to_date(date):
 
 def date_to_xls(date):
     return str(date.day).zfill(2) + "." + str(date.month).zfill(2) + "." + str(date.year)
+
